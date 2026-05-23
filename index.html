@@ -152,22 +152,6 @@
     touch-action: none;
   }
 
-  /* ── Next-fruit preview (top-right corner) ─────────────────── */
-  #next-box {
-    position: absolute; top: 20px; right: 14px;
-    background: rgba(255,255,255,.75);
-    border-radius: 0 0 14px 14px;
-    padding: 4px 10px 8px;
-    display: flex; flex-direction: column; align-items: center;
-    box-shadow: 0 2px 8px var(--shadow);
-    pointer-events: none;
-  }
-  #next-label { font-size: 9px; font-weight: 800; letter-spacing: 2px; color: rgba(120,60,0,.5); }
-  #next-img {
-    width: 44px; height: 44px; border-radius: 50%; object-fit: cover;
-    margin-top: 4px;
-  }
-
   /* ── Game-over overlay ────────────────────────────────────── */
   #overlay {
     position: absolute; inset: 0;
@@ -254,12 +238,6 @@
 
   <div id="canvas-wrap">
     <canvas id="gameCanvas"></canvas>
-  </div>
-
-  <!-- next-fruit preview -->
-  <div id="next-box">
-    <div id="next-label">NEXT</div>
-    <img id="next-img" src="" alt="next">
   </div>
 
   <!-- game-over overlay -->
