@@ -1,4 +1,4 @@
-const CACHE = 'migamelon-v1';
+const CACHE = 'migamelon-v2';
 const ASSETS = [
   './',
   './index.html',
