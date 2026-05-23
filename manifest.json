@@ -1,0 +1,14 @@
+{
+  "name": "Mike Drop",
+  "short_name": "Mike Drop",
+  "description": "Hmmm?",
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "#fdf3c8",
+  "theme_color": "#f5c842",
+  "icons": [
+    { "src": "images/11.jpg", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "images/11.jpg", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
